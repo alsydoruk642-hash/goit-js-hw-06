@@ -26,7 +26,7 @@ const customer = {
     return this.balance;
   },
   getDiscount() {
-    return discount;
+    return this.discount;
   },
   setDiscount(value) {
     this.discount = value;
